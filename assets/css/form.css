@@ -1,0 +1,12 @@
+/* Form specific styles */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: auto;
+  }
+  
+  label, input, textarea, button {
+    margin: 10px 0;
+  }
+  
