@@ -1,12 +1,54 @@
-/* Form specific styles */
+.left-panel {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+}
+
+.circle {
+  width: 300px;
+  height: 300px;
+  background: radial-gradient(circle, #dc1cc9, #9f1892);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  text-align: center;
+}
+
+.right-panel {
+  flex: 1;
+  padding: 20px;
+  background-color: white;
+}
+
 form {
-    display: flex;
-    flex-direction: column;
-    max-width: 500px;
-    margin: auto;
-  }
-  
-  label, input, textarea, button {
-    margin: 10px 0;
-  }
-  
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin: 10px 0 5px;
+}
+
+input, textarea, button {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #555;
+}
+
